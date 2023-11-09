@@ -1,6 +1,10 @@
 $small-screens: 992px;
 
 @media only screen and (max-width: $small-screens) {
+  :root {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
   .hero {
     display: flex;
     flex-direction: column-reverse;
