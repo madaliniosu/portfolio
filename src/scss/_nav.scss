@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5.125rem;
+}
+
+#logo {
+  color: var(--clr-accent);
+}
+
+.nav-btns {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.active {
+  color: var(--clr-accent);
+}
+
+.language-toggle {
+  display: flex;
+  cursor: pointer;
+}
+
+.download-btn {
+  display: flex;
+  align-items: auto;
+}
+
+.blink-class {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0%;
+  }
+}

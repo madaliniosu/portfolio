@@ -1,0 +1,106 @@
+.section-divider {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  margin: 3.5rem 0;
+}
+.section-border {
+  margin: 1.5rem 0;
+  height: 8px;
+  background-color: var(--clr-accent);
+  border: none;
+  border-radius: 7px;
+  flex: 1 1 60%;
+}
+
+.border-slot {
+  flex: 1 1 60%;
+}
+
+.section-title {
+  margin: 0;
+  padding: 0;
+  flex: 1 1 35%;
+}
+
+.section-card {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
+}
+
+.section-card > :nth-child(1) {
+  flex-basis: 35%;
+}
+
+.section-card > :nth-child(2) {
+  flex-basis: 60%;
+}
+
+.left-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+// .left-container {
+//   margin: 0;
+//   padding: 0;
+//   // width: 45%;
+//   overflow: hidden;
+//   min-width: 300px;
+// }
+
+// .left-container img {
+//   width: 100%;
+//   height: 100%;
+//   // max-width: 20vw;
+//   // min-width: 10vw;
+
+//   object-fit: contain;
+//   object-position: top;
+// }
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.work-title {
+  margin: 0;
+}
+
+.work-tools {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.work-links {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.github-btn {
+  display: flex;
+  align-items: auto;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#skills-list {
+  padding-top: 2rem;
+  list-style-type: none;
+}

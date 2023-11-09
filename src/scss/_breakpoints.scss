@@ -1,0 +1,41 @@
+$small-screens: 992px;
+
+@media only screen and (max-width: $small-screens) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    order: 2;
+    justify-content: space-between;
+    // gap: 9.5rem;
+  }
+
+  .hero-container-right {
+    margin: 0 0;
+  }
+
+  .section-card {
+    flex-direction: column;
+  }
+
+  .github-btn {
+    align-self: center;
+  }
+
+  .left-container {
+    width: 100%;
+  }
+
+  .left-container img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .section-divider {
+    flex-direction: column;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+}

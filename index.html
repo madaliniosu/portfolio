@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Madalin Iosu</title>
+    <link rel="stylesheet" href="src/scss/style.scss" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+        <h2 id="logo">M<span class="blink-class">_</span></h2>
+
+        <div class="nav-btns">
+          <div>
+            <button class="dark-mode-toggle">
+              <svg
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 496 496"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z"
+                  transform="translate(-8 -8)"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="language-toggle">
+            <span language="English" class="toggle-btn active"> EN </span>|
+            <span language="Romanian" class="toggle-btn"> RO </span>
+          </div>
+
+          <a href="#" class="download-btn"
+            >DOWNLOAD CV
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 18"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 20L18 14M12 20L6 14M12 20L12 9.5M12 4V6.5"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <!-- <div class="hero-container-left">
+          <h3 class="hero-greeting">Hi,</h3>
+          <h1 class="hero-introduction">I'm Madalin</h1>
+          <h3 class="hero-description">
+            What I am and what I do, but it needs to be two lines so it takes up
+            more space
+          </h3>
+
+          <a href="mailto:iosu.gm@gmail.com" class="hero-cta-btn">LET'S TALK</a>
+        </div>
+        <div id="hero-container-right">
+          <img
+            id="profile-pic"
+            src="./profile-pic2.png"
+            alt="profile-picture"
+          />
+        </div> -->
+      </div>
+    </header>
+
+    <main>
+      <section class="main-section">
+        <div class="section-divider">
+          <h2 class="section-about-me section-title">About Me</h2>
+
+          <div class="border-slot">
+            <hr class="section-border" />
+          </div>
+        </div>
+        <div class="about-container">
+          <!-- <div class="section-card">
+            <div class="left-container">
+              <ul>
+                <li>CSS</li>
+                <li>html</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+            <div class="right-container">
+              <p class="about-me-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+                laborum eius porro nostrum quod necessitatibus. Repellendus nihil
+                eaque alias eos, doloribus cupiditate suscipit ea impedit libero,
+                repudiandae voluptatum eveniet deserunt animi veritatis facilis
+                dignissimos. Ab et esse porro maiores, laudantium magni
+                consequuntur placeat repudiandae, omnis, quaerat earum sequi eum
+                magnam.
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="main-section">
+        <div class="section-divider">
+          <h2 class="section-recent-work section-title">Recent Work</h2>
+
+          <div class="border-slot">
+            <hr class="section-border" />
+          </div>
+        </div>
+        <div class="work-container">
+          <!-- <div class="left-container">
+              <img src="./images/sample-pic1.jpg" alt="first-work" />
+            </div>
+
+            <div class="right-container">
+              <h3 class="work-title">Ascendo</h3>
+              <p class="work-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora laborum eius porro nostrum quod necessitatibus.
+                Repellendus nihil eaque alias eos, doloribus cupiditate suscipit
+                ea impedit libero, repudiandae voluptatum eveniet deserunt animi
+                veritatis facilis dignissimos. Ab et esse porro maiores,
+                laudantium magni consequuntur placeat repudiandae, omnis,
+                quaerat earum sequi eum magnam.
+              </p>
+              <ul class="work-tools">
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="work-links">
+                <a class="website-btn btn" href="#">WEBSITE</a>
+                <a class="github-btn download-btn" href="#"
+                  >GO TO GITHUB
+                  <svg
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.9453 1.75C13.5778 1.74998 12.4754 1.74996 11.6085 1.86652C10.7084 1.98754 9.95048 2.24643 9.34857 2.84835C8.82363 3.37328 8.55839 4.01836 8.41916 4.77635C8.28387 5.51291 8.25799 6.4143 8.25196 7.49583C8.24966 7.91003 8.58357 8.24768 8.99778 8.24999C9.41199 8.2523 9.74964 7.91838 9.75194 7.50418C9.75803 6.41068 9.78643 5.6356 9.89448 5.04735C9.99859 4.48054 10.1658 4.15246 10.4092 3.90901C10.686 3.63225 11.0746 3.4518 11.8083 3.35315C12.5637 3.25159 13.5648 3.25 15.0002 3.25H16.0002C17.4356 3.25 18.4367 3.25159 19.1921 3.35315C19.9259 3.4518 20.3144 3.63225 20.5912 3.90901C20.868 4.18577 21.0484 4.57435 21.1471 5.30812C21.2486 6.06347 21.2502 7.06459 21.2502 8.5V16.5C21.2502 17.9354 21.2486 18.9365 21.1471 19.6919C21.0484 20.4257 20.868 20.8142 20.5912 21.091C20.3144 21.3678 19.9259 21.5482 19.1921 21.6469C18.4367 21.7484 17.4356 21.75 16.0002 21.75H15.0002C13.5648 21.75 12.5637 21.7484 11.8083 21.6469C11.0746 21.5482 10.686 21.3678 10.4092 21.091C10.1658 20.8475 9.99859 20.5195 9.89448 19.9527C9.78643 19.3644 9.75803 18.5893 9.75194 17.4958C9.74964 17.0816 9.41199 16.7477 8.99778 16.75C8.58357 16.7523 8.24966 17.09 8.25196 17.5042C8.25799 18.5857 8.28387 19.4871 8.41916 20.2236C8.55839 20.9816 8.82363 21.6267 9.34857 22.1517C9.95048 22.7536 10.7084 23.0125 11.6085 23.1335C12.4754 23.25 13.5778 23.25 14.9453 23.25H16.0551C17.4227 23.25 18.525 23.25 19.392 23.1335C20.2921 23.0125 21.0499 22.7536 21.6519 22.1517C22.2538 21.5497 22.5127 20.7919 22.6337 19.8918C22.7503 19.0248 22.7502 17.9225 22.7502 16.5549V8.44513C22.7502 7.07754 22.7503 5.97522 22.6337 5.10825C22.5127 4.20814 22.2538 3.45027 21.6519 2.84835C21.0499 2.24643 20.2921 1.98754 19.392 1.86652C18.525 1.74996 17.4227 1.74998 16.0551 1.75H14.9453Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M2.00098 11.749C1.58676 11.749 1.25098 12.0848 1.25098 12.499C1.25098 12.9132 1.58676 13.249 2.00098 13.249L13.9735 13.249L12.0129 14.9296C11.6984 15.1991 11.662 15.6726 11.9315 15.9871C12.2011 16.3016 12.6746 16.338 12.9891 16.0685L16.4891 13.0685C16.6553 12.926 16.751 12.718 16.751 12.499C16.751 12.2801 16.6553 12.0721 16.4891 11.9296L12.9891 8.92958C12.6746 8.66002 12.2011 8.69644 11.9315 9.01093C11.662 9.32543 11.6984 9.7989 12.0129 10.0685L13.9735 11.749L2.00098 11.749Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div> -->
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 12.6477 21.7004 13.2503 21.2424 13.7083L13.7083 21.2424C13.2503 21.7004 12.6477 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7"
+          stroke="#D74017"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />
+        <path
+          d="M12 17C10.8846 17 9.85038 16.6303 9 16"
+          stroke="#D74017"
+          stroke-width="1.5"
+          stroke-linecap="round"
+        />
+        <ellipse cx="15" cy="10.5" rx="1" ry="1.5" fill="#D74017" />
+        <ellipse cx="9" cy="10.5" rx="1" ry="1.5" fill="#D74017" />
+        <path
+          d="M12 22C12 19.2071 12 17.8107 12.3928 16.688C13.0964 14.6773 14.6773 13.0964 16.688 12.3928C17.8107 12 19.2071 12 22 12"
+          stroke="#D74017"
+          stroke-width="1.5"
+        />
+      </svg>
+      <p>mădălin iosu <span id="dynamic-year"></span></p>
+    </footer>
+    <script type="module" src="./src/js/script.js"></script>
+  </body>
+</html>

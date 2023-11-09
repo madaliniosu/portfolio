@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  gap: 15%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.hero-container-left {
+  flex: 1 1 50%;
+}
+
+.hero-container-right {
+  margin: auto;
+  flex: 1 1 50%;
+}
+
+.profile-pic-container {
+  background-image: url("../images/profile-pic2.png");
+  background-color: var(--clr-dark);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  height: 25rem;
+  width: 25rem;
+}
+
+.hero-cta-btn {
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid var(--clr-accent);
+  margin-top: 1rem;
+}
+
+.hero-cta-btn:hover {
+  background: var(--clr-accent);
+  color: var(--clr-light);
+}
