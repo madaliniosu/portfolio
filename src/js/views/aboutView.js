@@ -33,7 +33,7 @@ class AboutView {
             <li>maybe describe a passion project here?</li>
             <li>maybe describe a passion project here?</li>
           </ul>
-          <a href="#" class="download-btn" style="font-size: 18px; font-weight: 700;"
+          <a href="https://drive.google.com/file/d/1uhLlK03Dw1gpjmHvtrKCUqFX74B78fsq/view?usp=sharing" target="_blank" class="download-btn" style="font-size: 18px; font-weight: 700;"
           >DOWNLOAD CV
           <svg
             width="24"
@@ -50,6 +50,11 @@ class AboutView {
               stroke-linejoin="round"
             />
           </svg>
+          <div>
+          <a href="#">LinkedIn</a>
+          <a href="#">Github</a>
+          <a href="#" href="mailto:iosu.gm@gmail.com">E-mail</a>
+          </div>
         </div>
       </div> 
         `;

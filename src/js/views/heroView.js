@@ -21,10 +21,10 @@ class HeroView {
           <h3 class="hero-description">
             ${this.#data.description}
           </h3>
-
           <a href="mailto:iosu.gm@gmail.com" class="hero-cta-btn">${
             this.#data.callToAction
-          }</a>
+          }</a> 
+
         </div>
         <div class="hero-container-right">
           <div class="profile-pic-container">
